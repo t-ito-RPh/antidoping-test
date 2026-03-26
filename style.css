@@ -233,11 +233,6 @@ a:hover {
   margin-bottom: 24px;
 }
 
-.hero-title em {
-  font-style: italic;
-  color: var(--blue);
-}
-
 .hero-text {
   max-width: 560px;
   font-size: 15px;
