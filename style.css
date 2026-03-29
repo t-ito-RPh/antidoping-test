@@ -981,4 +981,23 @@ a:hover {
     align-items: flex-start;
     flex-direction: column;
   }
+  .partner-reference {
+  margin: 0 0 22px;
+  padding: 14px 16px;
+  border-left: 3px solid var(--accent);
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+.partner-reference a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.partner-reference a:hover {
+  opacity: 0.9;
+}
 }
