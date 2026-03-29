@@ -1504,4 +1504,11 @@ a:hover {
 .company-description p:last-child {
   margin-bottom: 0;
 }
+.hero-main {
+  padding-bottom: 24px;
+}
+
+.hero-actions {
+  margin-bottom: 0;
+}
 }
