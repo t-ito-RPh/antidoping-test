@@ -108,48 +108,46 @@
       </div>
     </section>
 
-    <section class="section section-light" id="target">
-      <div class="section-inner">
-        <div class="section-header">
-          <div>
-            <div class="section-overline">Target</div>
-            <h2 class="section-title">主な対象事業者</h2>
-          </div>
-          <p class="section-desc">
-            主に、競技者向け製品を扱うメーカー・販売事業者からのご相談を想定しています。
-          </p>
-        </div>
-
-        <div class="card-grid three">
-          <article class="info-card">
-            <div class="card-tag">Manufacturer</div>
-            <h3>メーカー</h3>
-            <p>
-              既存製品の検査導入に加え、アンチドーピングを目的とした
-              製品開発支援についてもご相談いただけます。
-            </p>
-          </article>
-
-          <article class="info-card">
-            <div class="card-tag">Distributor</div>
-            <h3>販売事業者</h3>
-            <p>
-              取扱製品について、アンチドーピングの観点から
-              確認体制を整えたい場合を想定しています。
-            </p>
-          </article>
-
-          <article class="info-card">
-            <div class="card-tag">Operations</div>
-            <h3>品質・管理部門</h3>
-            <p>
-              製品管理、問い合わせ対応、社内運用の整理も含めて
-              確認したい場合にご相談いただけます。
-            </p>
-          </article>
-        </div>
+    <section class="section section-light">
+  <div class="section-inner">
+    <div class="section-header">
+      <div>
+        <div class="section-overline">Before You Start</div>
+        <h2 class="section-title">まず整理しておきたいこと</h2>
       </div>
-    </section>
+      <p class="section-desc">
+        アンチドーピング対応は、検査の依頼だけで完結するものではありません。
+        対象製品と確認目的を整理したうえで進める必要があります。
+      </p>
+    </div>
+
+    <div class="card-grid three">
+      <article class="info-card">
+        <h3>対象は既存製品です</h3>
+        <p>
+          サプリメント等の既存製品が対象です。
+          試作品は対象外です。
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3>確認目的の整理が必要です</h3>
+        <p>
+          販売前確認なのか、問い合わせ対応の備えなのか、
+          まず確認の目的を整理しておく必要があります。
+        </p>
+      </article>
+
+      <article class="info-card">
+        <h3>検査後の運用も見ておきます</h3>
+        <p>
+          検査の有無だけでなく、社内での管理方法や説明のしかたまで
+          含めて考えておく必要があります。
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
 
     <section class="section" id="service">
       <div class="section-inner">
@@ -546,9 +544,12 @@
 
         <div class="contact-panel">
           <form action="https://formspree.io/f/mreyylbb" method="POST" class="contact-form">
-            <input type="hidden" name="サイト区分" value="AMS" />
-            <input type="hidden" name="問い合わせ元" value="アンチドーピング検査導入支援" />
-            <input type="hidden" name="送信元ページ" value="https://antidoping.amsmedical.jp/" />
+  <input type="hidden" name="サイト区分" value="AMS" />
+  <input type="hidden" name="問い合わせ元" value="アンチドーピング検査導入支援" />
+  <input type="hidden" name="送信元ページ" value="https://antidoping.amsmedical.jp/" />
+  <input type="hidden" name="_subject" value="【AMS】アンチドーピング検査導入支援サイトからお問い合わせ" />
+  <input type="hidden" name="_next" value="https://antidoping.amsmedical.jp/thanks.html" />
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
 
             <div class="form-grid">
               <div class="form-field">
@@ -614,14 +615,14 @@
               </div>
 
               <div class="form-field form-field-full checkbox-row">
-                <label class="checkbox-label">
-                  <input type="checkbox" required />
-                  <span>
-                    <a href="privacy.html" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
-                    に同意のうえ送信します。
-                  </span>
-                </label>
-              </div>
+  <label class="checkbox-label">
+    <input type="checkbox" name="privacy_agree" value="yes" required />
+    <span>
+      <a href="privacy.html" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
+      に同意のうえ送信します。
+    </span>
+  </label>
+</div>
 
               <div class="form-field form-field-full">
                 <button type="submit" class="btn-primary submit-btn">送信する</button>
